@@ -1,12 +1,11 @@
-// const handler = {
-//     get: function(target, key, receiver) {
-//         return Reflect.get(target, key, receiver)
-//     }
-// }
-
+const handler = {
+    get: function (target, key, receiver) {
+        return Reflect.get(target, key, receiver)
+    }
+}
 
 const handler2 = {
-    get: function(target, key, receiver) {
+    get: function (target, key, receiver) {
         return target[key]
     }
 }
@@ -26,24 +25,24 @@ function reactive(target, flag) {
 const person = {
     name: 'Tim',
     age: 34,
-    get getName () {
+    get getName() {
         return this.name
     }
 }
 
-const child = {
-    __proto__: person,
-    name: 'Child',
+
+const reactive1 = reactive(person, true)
+
+const reactive2 = reactive(person, false)
+
+const child1 = {
+    name: 'Bob',
+    __proto__: reactive1
 }
 
-
-const reactiveChildByReflect = reactive(child, true)
-
-const reactiveChild = reactive(child, false)
-
-console.log(reactiveChild.getName)
-console.log(reactiveChildByReflect.getName)
-
-const handler = {
-    // ?
+const child2 = {
+    name: 'Bob',
+    __proto__: reactive2
 }
+console.log(child1.getName)
+console.log(child2.getName)
