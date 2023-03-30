@@ -1,5 +1,13 @@
 {
     "content": [
-        "Coming soon!"
+        "In most people's eyes, Front-end development engineer is a very easy job. It is nothing more than restoring the UI design, adjusting the interface with the back-end, and then it is gone, even some real front-end engineers think so. In fact, front-end development requires a blend of technical and soft skills, and the most successful front-end developers are those who are constantly learning, adapting, and refining their skills to meet the demands of the industry. As a front-end development engineer, you must have at least the following skills.",
+        "1. HTML、CSS、JS: This is the foundation of front-end development, and a strong grasp of these languages is essential for any front-end developer.",
+        "2. Familiarity with front-end frameworks and libraries: Front-end developers should be familiar with popular frameworks such as React, Angular, and Vue.js, as well as libraries like jQuery, at least one.",
+        "3. Debugging and troubleshooting skills: Debugging and troubleshooting skills are essential for identifying and fixing issues that arise during the development process. ",
+        "If you can meet the above conditions, you may be a very good junior development engineer. You heard that right, junior development!",
+        "In addition to these, there are multi-terminal adaptation, responsive design, server-side development, client-side development, APP development, mini-program development, performance optimization, etc. So u also need learn NodeJs, mini-program, flutter, React Native, Electron or Tauri, etc.",
+        "In addition, you also have to understand some project processes, like git, CI/CD, docker, nginx, etc.",
+        "So many things need to be understood and learned, this is the current status of front-end development. That's why I feel lost and overwhelmed.",
+        "But learning must continue, for life."
     ]
 }
